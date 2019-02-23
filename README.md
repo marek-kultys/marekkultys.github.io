@@ -1,4 +1,4 @@
-# marekkultys.github.io
+# marek-kultys.github.io
 Personal website for Marek Kultys on GitHub Pages, version 5.0.
 
 Built with Jekyll and Neat.
