@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<title>
+      	{{ site.data.sgraffito.name }}
+      </title>
+    	{% include head.html %}
+	</head>
+
+
+	<body {% if page.label == "home" %} onload="randombg()" {% endif %}>
+		<header>
+			{% include header.html %}
+		</header>
+		<main>
+      	{{ content }}
+		</main>
+		<footer>
+			{% include footer.html %}
+		</footer>
+	</body>
+</html>
