@@ -18,15 +18,6 @@ title: Trowel & Lime | Blog Post
 
 					<h6 class="metadata">{% include byline.html post=page %}</h6>
 
-					<div class="tags small-margin-bottom">
-						<h6>
-							{% for tag in page.tags %}
-								{% capture tag_name %}{{ tag }}{% endcapture %}
-								<a href="/tag/{{ tag_name }}"><span class="nowrap">{{ tag_name }}</span></a>
-							{% endfor %}
-						</h6>
-					</div>
-
 					<div class="blogpost small-padding-top">
 						<div class="blogpost-text">
 							<span class="markdown">
