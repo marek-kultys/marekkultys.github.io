@@ -1,40 +1,20 @@
-<div class="block">
-   <div class="header-name">
-      <h1>
-         <a href="/" class="unmarked-link">
-            Trowel & Lime
-         </a>
-      </h1>
+<div class="container">
+   <div class="container-one-third">
+      <h1><a href="/">Marek Kultys</a></h1>
    </div>
-</div>
-
-<div class="block menu-elements">
-   <div class="header-tagline">
-      <!-- This does not render with a yellow style on hover when below the phone-only breakpoint -->
-      <h6><a href="/">The unique art of sgraffito</a></h6>
+   <div class="container-two-thirds">
+      <h2>
+            {% if page.label == "home" %}
+               Designer of information experiences for AI, life sciences, and healthcare
+            {% elsif page.label == "work" %}
+               Work that I'm proud of
+            {% elsif page.label == "blog" %}
+               My latest design thinking
+            {% elsif page.label == "influences" %}
+               People and works that influenced me
+            {% elsif page.label == "contact" %}
+               Get in touch
+            {% endif %}
+      </h2>
    </div>
-
-   <nav>
-      <div class="header-menu">
-         <label for="show-menu" class="show-menu">
-            <h6><a class="unmarked-link">Menu</a></h6>
-         </label>
-         <input type="checkbox" id="show-menu" role="button">
-         <ul id="menu">
-            <span class="mobile">
-               <!-- Instead of disappearing the current page in the menu, all should be displayed with different styling for the current one to indicate that this page is current -->
-               <li><h6><a {% if page.label == 'gallery' %} class="underlined-link" {% endif %} href="/gallery">Gallery</a></h6></li>
-               <li><h6><a {% if page.label == 'how-we-work' %} class="underlined-link" {% endif %} href="/how-we-work">How we work</a></h6></li>
-               <li><h6><a {% if page.label == 'contact' %} class="underlined-link" {% endif %} href="/contact">Contact</a></h6></li>
-               <li><h6><a {% if page.label == 'blog' %} class="underlined-link" {% endif %} href="/blog">Blog</a></h6></li>
-            </span>
-            <span class="desktop">
-               <li><h6><a href="/gallery">Gallery</a></h6></li>
-               <li><h6><a href="/how-we-work">How we work</a></h6></li>
-               <li><h6><a href="/contact">Contact</a></h6></li>
-               <li><h6><a href="/blog">Blog</a></h6></li>
-            </span>
-         </ul>
-      </div>
-   </nav>
 </div>
