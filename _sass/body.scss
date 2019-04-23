@@ -173,3 +173,17 @@ article {
    margin-top: 2em;
    margin-bottom: 2.4em;
 }
+
+.backlink {
+   font-weight: 400;
+   a {
+      color: $black;
+      border-bottom: 2px solid $cyanA700;
+      padding-bottom: 0px;
+      &:hover {
+         color: $cyanA700;
+         text-decoration: none;
+         border-color: $cyanA700;
+      }
+   }
+}

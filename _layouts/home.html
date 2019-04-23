@@ -13,16 +13,14 @@
 				<section>
 					<div class="container">
 					   <div class="container-one-third">
-					      <h1><a href="/">{{ site.data.mk.name }}</a></h1>
+					      <h1><a href="/">{{ site.data.mk.name }}</a>{% if page.layout == "blog-post" %}<span class="backlink"> / <a href="/blog">Back</a>{% endif %}</span></h1>
 					   </div>
 					   <div class="container-two-thirds">
-					      <h2>
-								{% if page.layout == "blog-post" %}
-									{{ page.title }}
-								{% else %}
-					         	{{ site.data.mk.tagline }}
-								{% endif %}
-					      </h2>
+							{% if page.layout == "blog-post" %}
+								<h2>{{ page.title }}</h2>
+							{% else %}
+				         	<h2>{{ site.data.mk.tagline }}</h2>
+							{% endif %}
 					   </div>
 					</div>
 					{% include divider.html %}
