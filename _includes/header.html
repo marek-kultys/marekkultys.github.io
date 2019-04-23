@@ -4,17 +4,8 @@
    </div>
    <div class="container-two-thirds">
       <h2>
-            {% if page.label == "home" %}
-               Designer of information experiences for AI, life sciences, and healthcare
-            {% elsif page.label == "work" %}
-               Work that I'm proud of
-            {% elsif page.label == "blog" %}
-               My latest design thinking
-            {% elsif page.label == "influences" %}
-               People and works that influenced me
-            {% elsif page.label == "contact" %}
-               Get in touch
-            {% endif %}
+         {% assign thispage = site.data.pages[page.label] %}
+         {{ thispage.tagline }}
       </h2>
    </div>
 </div>

@@ -19,7 +19,10 @@
 							{% if page.layout == "blog-post" %}
 								<h2>{{ page.title }}</h2>
 							{% else %}
-				         	<h2>{{ site.data.mk.tagline }}</h2>
+				         	<h2>
+									{% assign thispage = site.data.pages[page.label] %}
+					         	{{ thispage.tagline }}
+								</h2>
 							{% endif %}
 					   </div>
 					</div>

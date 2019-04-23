@@ -1,0 +1,19 @@
+home:
+   tagline: Designer of information experiences for the life sciences, AI, and healthcare
+   url: /
+
+work:
+   tagline: Work that I'm proud of
+   url: work
+
+blog:
+   tagline: Blog and my latest design thinking
+   url: blog
+
+influences:
+   tagline: People and works that influenced me
+   url: influences
+
+contact:
+   tagline: Get in touch
+   url: contact
