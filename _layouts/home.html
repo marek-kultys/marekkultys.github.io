@@ -10,6 +10,17 @@
 	<body>
 		<main>
 			<article>
+				<div class="container">
+				   <div class="container-one-third">
+				      <h1><a href="/">{{ site.data.mk.name}}</a></h1>
+				   </div>
+				   <div class="container-two-thirds">
+				      <h2>
+				         {{ site.data.mk.tagline}}
+				      </h2>
+				   </div>
+				</div>
+				{% include divider.html %}
       		{{ content }}
 			</article>
 		</main>
