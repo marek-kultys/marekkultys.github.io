@@ -125,7 +125,7 @@ ul {
 
 
 // GRIDS
-section {
+article {
    padding: 3em 1em 4em;
    @include outer-container(100%);
 }
@@ -158,6 +158,10 @@ section {
    @include media($landscape) {
       @include shift(4);
    }
+}
+
+.entry {
+   margin-bottom: $large-leading;
 }
 
 
