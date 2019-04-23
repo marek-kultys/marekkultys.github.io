@@ -17,7 +17,11 @@
 					   </div>
 					   <div class="container-two-thirds">
 					      <h2>
-					         {{ site.data.mk.tagline }}
+								{% if page.layout == "blog-post" %}
+									{{ page.title }}
+								{% else %}
+					         	{{ site.data.mk.tagline }}
+								{% endif %}
 					      </h2>
 					   </div>
 					</div>
