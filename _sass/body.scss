@@ -20,6 +20,12 @@ $medium-leading: 1.4em;
 $large-leading: 1.66em;
 $huge-leading: 2.2em;
 
+// Declare other styles
+$underline: 1px solid $cyanA700;
+
+
+
+
 // GLOBALS
 html {
    overflow-y: scroll; // Fixing jumping scroll bar when page overflows
@@ -42,7 +48,7 @@ body {
 a {
    color: $black;
    text-decoration: none;
-   border-bottom: 2px solid $cyanA700;
+   border-bottom: $underline;
    padding-bottom: 0px;
    &:hover {
       color: $cyanA700;
@@ -78,7 +84,7 @@ h1 { // used for MK
    a {
       border: 0px;
       &:hover {
-         color: $black;
+         color: $cyanA700;
       }
    }
 
@@ -178,7 +184,7 @@ article {
    font-weight: 400;
    a {
       color: $black;
-      border-bottom: 2px solid $cyanA700;
+      border-bottom: $underline;
       padding-bottom: 0px;
       &:hover {
          color: $cyanA700;
