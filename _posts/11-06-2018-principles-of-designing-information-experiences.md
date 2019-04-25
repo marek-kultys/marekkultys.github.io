@@ -2,7 +2,7 @@
 layout: blog-post
 title: Principles of Designing Information Experiences
 date: 11 June 2018
-url: https://www.science-practice.com/blog/2018/06/11/uxls-boston/
+link: https://www.science-practice.com/blog/2018/06/11/uxls-boston/
 excerpt_separator: <!--more-->
 published: true
 ---

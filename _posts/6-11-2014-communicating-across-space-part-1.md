@@ -2,7 +2,7 @@
 layout: blog-post
 title: Communicating Across Space, Part 1
 date: 6 November 2014
-url: https://www.science-practice.com/blog/2014/11/06/communicating-across-the-cosmos/
+link: https://www.science-practice.com/blog/2014/11/06/communicating-across-the-cosmos/
 excerpt_separator: <!--more-->
 published: true
 ---
