@@ -9,13 +9,16 @@
 
 	<body>
 		<main>
+			<header>
+				{% include header.html %}
+				{% include divider.html %}
+			</header>
 			<article>
-				<section>
-					{% include header.html %}
-					{% include divider.html %}
-				</section>
       		{{ content }}
 			</article>
+			<footer>
+				{% include footer.html %}
+			</footer>
 		</main>
 	</body>
 </html>
