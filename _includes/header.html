@@ -4,9 +4,13 @@
       {% include home-link.html %}
    </div>
    <div class="container-two-thirds">
-      <h2>
-         {% assign thispage = site.data.pages[page.label] %}
-         {{ thispage.tagline }}
-      </h2>
+      {% if page.layout == "blog-post" %}
+         <h2>{{ page.title }}</h2>
+      {% else %}
+         <h2>
+            {% assign thispage = site.data.pages[page.label] %}
+            {{ thispage.tagline }}
+         </h2>
+      {% endif %}
    </div>
 </div>
