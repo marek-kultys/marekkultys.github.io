@@ -1,19 +1,57 @@
 home:
    tagline: Designer of information experiences for the life sciences, AI, and healthcare
-   url: /
+   link: /
 
 work:
    tagline: Work that I'm proud of
-   url: work
+   link: /work
 
 blog:
    tagline: My latest design thinking
-   url: blog
+   link: /blog
 
 influences:
    tagline: People and works that influenced me
-   url: influences
+   link: /influences
 
 contact:
    tagline: Get in touch
-   url: contact
+   link: /contact
+
+benevolent-ai:
+   tagline:
+   ex-link: https://benevolent.ai/
+
+bio-design-team:
+   tagline:
+   ex-link: https://www.science-practice.com/teams/bio-design/
+
+ctrl-group:
+   tagline:
+   ex-link: https://www.ctrl-group.com/
+
+bento-lab:
+   tagline:
+   link: /work/bento-lab
+   ex-link: https://www.bento.bio/
+
+data-explorers-workshop:
+   tagline:
+   link: /work/data-explorers-workshop
+
+lingua-extraterrestris:
+   tagline:
+   link: /work/lingua-extraterrestris
+
+mitosis-and-meiosis:
+   tagline:
+   link: /work/mitosis-and-meiosis
+
+sequence-bundles:
+   tagline:
+   link: /work/sequence-bundles
+   ex-link: https://www.science-practice.com/projects/sequence-bundles/
+
+sex-shop:
+   tagline:
+   link: /work/sex-shop-logo
