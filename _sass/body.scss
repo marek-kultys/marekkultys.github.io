@@ -6,6 +6,7 @@ $landscape: new-breakpoint(min-width 960px);
 // Declare colours
 $white: rgba(255, 255, 255, 1);
 $black: rgba(0, 0, 0, 1);
+$grey: rgba(0, 0, 0, 0.5);
 $cyan50: rgba(224, 247, 250, 1);
 $cyanA700: rgba(0, 184, 212, 1);
 
@@ -126,7 +127,7 @@ ul {
 
 // GRIDS
 main {
-   padding: 3em 1em 4em;
+   padding: 3em 1em 2em;
    @include outer-container(100%);
 }
 
@@ -160,10 +161,6 @@ main {
    }
 }
 
-.entry {
-   margin-bottom: $large-leading;
-}
-
 
 
 // OTHER STYLES
@@ -172,6 +169,10 @@ main {
    border-bottom: 1px solid $black;
    margin-top: 2em;
    margin-bottom: 2.4em;
+}
+
+.entry {
+   margin-bottom: $large-leading;
 }
 
 .backlink {
@@ -194,8 +195,18 @@ main {
 
 .blog-list {
    margin-bottom: $large-leading*2;
+   &:last-of-type {
+      margin-bottom: 0px;
+   }
    h4{
       margin-top: $micro-leading;
       margin-bottom: $micro-leading;
+   }
+}
+
+.footer{
+   margin-top: $huge-leading*2;
+   h4 {
+      color: $grey;
    }
 }
