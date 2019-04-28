@@ -1,12 +1,8 @@
 exclude: [README.md]
-gems: [jekyll-paginate]
 host: 0.0.0.0
 
 source: .
 destination: ./_site
-
-paginate: 999
-paginate_path: "blog/page:num"
 
 future:      true
 lsi:         false

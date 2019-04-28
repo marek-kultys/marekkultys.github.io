@@ -6,7 +6,7 @@ label: blog
 <section>
 	<div class="container">
 		<div class="container-two-third shift">
-			{% for post in paginator.posts %}
+			{% for post in site.posts %}
 				<div class="blog-list">
 					<h3><a class="mutedlink" href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a></h3>
 					<h4>{% include byline.html post=post %}</h4>
