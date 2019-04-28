@@ -15,6 +15,7 @@ $medium-type: 1.2em;
 $large-type: 1.5em;
 
 // Declare leading
+$micro-leading: 0.66em;
 $small-leading: 1.1em;
 $medium-leading: 1.4em;
 $large-leading: 1.66em;
@@ -81,13 +82,6 @@ h1 { // used for MK
    @include media($landscape){
       margin-bottom: 0em;
    }
-   a {
-      border: 0px;
-      &:hover {
-         color: $cyanA700;
-      }
-   }
-
 }
 
 h2 { // used for page title
@@ -191,5 +185,17 @@ article {
          text-decoration: none;
          border-color: $cyanA700;
       }
+   }
+}
+
+.mutedlink {
+   border-bottom: none;
+}
+
+.blog-list {
+   margin-bottom: $large-leading*2;
+   h4{
+      margin-top: $micro-leading;
+      margin-bottom: $micro-leading;
    }
 }
