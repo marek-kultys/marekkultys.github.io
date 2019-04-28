@@ -132,8 +132,8 @@ main {
 }
 
 .container {
-   @include span-columns(11);
-   @include shift(0.5);
+   @include span-columns(11.2);
+   @include shift(0.4);
    @include media($landscape) {
       @include span-columns(7);
       @include shift(2.5);
