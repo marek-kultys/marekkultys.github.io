@@ -114,6 +114,10 @@ ul {
    }
 }
 
+img {
+   width: 100%;
+}
+
 ::-moz-selection { /* Code for Firefox */
    background: $cyan50;
    color: $cyanA700;
@@ -209,4 +213,9 @@ main {
    h4 {
       color: $grey;
    }
+}
+
+.block-of-images {
+   margin-top: $large-leading*2;
+   margin-bottom: $huge-leading*2;
 }
