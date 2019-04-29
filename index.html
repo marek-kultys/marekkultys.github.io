@@ -25,9 +25,10 @@ label: home
    <div class="container">
       <div class="container-two-third shift">
          <ul>
-            {% for page in site.data.pages-home %}
-               <li><a href="{{ page.link }}">{{ page.name }}</a></li>
-            {% endfor %}
+            <li><a href="{{ site.data.pages-home.work.link }}">{{ site.data.pages-home.work.tagline }}</a></li>
+            <li><a href="{{ site.data.pages-home.blog.link }}">{{ site.data.pages-home.blog.tagline }}</a></li>
+            <li><a href="{{ site.data.pages-home.influences.link }}">{{ site.data.pages-home.influences.tagline }}</a></li>
+            <li><a href="{{ site.data.pages-home.contact.link }}">{{ site.data.pages-home.contact.tagline }}</a></li>
          </ul>
       </div>
    </div>
