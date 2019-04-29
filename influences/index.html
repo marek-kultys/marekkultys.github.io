@@ -6,50 +6,12 @@ label: influences
 <section>
    <div class="container">
       <div class="container-two-third shift">
-         <div class="entry">
-            <h3>Edward Tufte</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-         </div>
-
-         <div class="entry">
-            <h3>Dan Lockton’s Design for Behaviour Change</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet.</p>
-         </div>
-
-         <div class="entry">
-            <h3>Understanding Comics</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-         </div>
-
-         <div class="entry">
-            <h3>James King and Science Practice</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-         </div>
-
-         <div class="entry">
-            <h3>Adrian Frutiger</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-
-         <div class="entry">
-            <h3>Ruth Benedict</h3>
-            <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et.</p>
-         </div>
-
-         <div class="entry">
-            <h3>Jan Tschihold</h3>
-            <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-         </div>
-
-         <div class="entry">
-            <h3>“Powers of Ten” by Charles and Ray Eames</h3>
-            <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit et.</p>
-         </div>
-
-         <div class="entry">
-            <h3>Marcel Breuer, Dieter Rams, and Jonathan Ivy</h3>
-            <p>Lorem ipsum dolor sit amet, ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et.</p>
-         </div>
+         {% for page in site.data.pages-influences %}
+            <div class="entry">
+               <h3><a href="{{ page.link }}">{{ page.name }}</a></h3>
+               <p>{{ page.tagline }}</p>
+            </div>
+         {% endfor %}
       </div>
    </div>
 </section>
