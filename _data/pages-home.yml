@@ -1,11 +1,19 @@
-- name: Work that I'm proud of
-  link: /work
+home:
+   tagline: Designer of information experiences for the life sciences, AI, and healthcare
+   link: /
 
-- name: My latest design thinking
-  link: /blog
+work:
+   tagline: Work that I'm proud of
+   link: /work
 
-- name: People and works that influenced me
-  link: /influences
+blog:
+   tagline: My latest design thinking
+   link: /blog
 
-- name: Get in touch
-  link: /contact
+influences:
+   tagline: People and works that influenced me
+   link: /influences
+
+contact:
+   tagline: Get in touch
+   link: /contact
