@@ -1,5 +1,6 @@
 ---
 layout: blog-post
+label: blog-post
 title: Rudiments of Visual Design for Data Explorers
 date: 30 January 2013
 link: https://www.researchgate.net/publication/281716612_Visual_Alpha-Beta-Gamma_Rudiments_of_Visual_Design_for_Data_Explorers

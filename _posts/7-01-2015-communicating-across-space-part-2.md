@@ -1,5 +1,6 @@
 ---
 layout: blog-post
+label: blog-post
 title: Communicating Across Space, Part 2
 date: 7 January 2015
 link: https://www.science-practice.com/blog/2015/01/07/communicating-across-the-cosmos-2/
