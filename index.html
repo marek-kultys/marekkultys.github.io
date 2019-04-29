@@ -19,4 +19,16 @@ label: home
    </div>
 </section>
 
-{% include links.html %}
+{% include divider.html %}
+
+<section>
+   <div class="container">
+      <div class="container-two-third shift">
+         <ul>
+            {% for page in site.data.pages-home %}
+               <li><a href="{{ page.link }}">{{ page.name }}</a></li>
+            {% endfor %}
+         </ul>
+      </div>
+   </div>
+</section>
