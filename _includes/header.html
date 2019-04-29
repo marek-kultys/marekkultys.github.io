@@ -3,12 +3,12 @@
       {% include home-link.html %}
    </div>
    <div class="container-two-thirds">
-      {% if page.layout == "blog-post" %}
+      {% if page.label == "blog-post" %}
          <h2>{{ page.title }}</h2>
       {% else %}
          <h2>
-            {% assign thispage = site.data.pages[page.label] %}
-            {{ thispage.tagline }}
+            {% assign page = site.data.pages-home[page.label] %}
+            {{ page.tagline }}
          </h2>
       {% endif %}
    </div>
