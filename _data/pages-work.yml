@@ -1,35 +1,44 @@
 - name: BenevolentAI
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  date: 2019–present
   link: https://benevolent.ai/
 
 - name: BioDesign Team
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  date: 2017–2018
   link: https://www.science-practice.com/teams/bio-design/
 
 - name: Sequence Bundles
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  date: 2013–2016
   link: https://www.science-practice.com/projects/sequence-bundles/
 
 - name: Ctrl Group
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  date: 2013–2018
   link: https://www.ctrl-group.com/
 
 - name: Bento Lab
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  date: 2013–2015
   link: https://www.bento.bio/
 
 - name: Data Explorers Workshop
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  date: 2012–2014
   link: /work/data-explorers-workshop
 
 - name: Mitosis and Meiosis
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  date: 2008–2009
   link: /work/mitosis-and-meiosis
 
 - name: Lingua Extraterrestris
   tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  date: 2010–2014
   link: /work/lingua-extraterrestris
 
 - name: Sex Shop Logo
-  tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+  tagline: In 2006 I designed a visual brand identity for a fictional sex shop. The identity was sexy, bold and juicy.
+  date: 2006
   link: /work/sex-shop-logo
