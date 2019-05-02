@@ -1,6 +1,13 @@
 <div class="container">
    <div class="container-one-third">
-      {% include home-link.html %}
+      <h1>
+         <a class="mutedlink" href="/">{{ site.data.mk.name }}</a>
+         {% if page.label == "blog-post" %}
+            <span class="backlink"> / <a href="/blog">Blog</a></span>
+         {% elsif page.label contains "project" %}
+            <span class="backlink"> / <a href="/work">Work</a></span>
+         {% endif %}
+      </h1>
    </div>
    <div class="container-two-thirds">
       {% if page.label == "blog-post" %}
