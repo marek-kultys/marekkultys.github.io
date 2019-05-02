@@ -6,7 +6,8 @@ $landscape: new-breakpoint(min-width 960px);
 // Declare colours
 $white: rgba(255, 255, 255, 1);
 $black: rgba(0, 0, 0, 1);
-$grey: rgba(0, 0, 0, 0.5);
+$dark-grey: rgba(0, 0, 0, 0.5);
+$light-grey: rgba(0, 0, 0, 0.25);
 $cyan50: rgba(224, 247, 250, 1);
 $cyanA700: rgba(0, 184, 212, 1);
 
@@ -170,7 +171,7 @@ main {
 // OTHER STYLES
 .divider {
    display: block;
-   border-bottom: 1px solid $black;
+   border-bottom: 1px solid $light-grey;
    margin-top: 2em;
    margin-bottom: 2.4em;
 }
@@ -211,7 +212,7 @@ main {
 .footer{
    margin-top: $huge-leading*2;
    h4 {
-      color: $grey;
+      color: $dark-grey;
    }
 }
 
