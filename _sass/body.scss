@@ -42,8 +42,24 @@ html {
 body {
    margin: 0px;
    background-color: $white;
-   min-height: 100%;
 }
+
+main {
+   min-height: calc(100vh - 9em);
+}
+
+header {
+   padding-top: 3em;
+}
+
+.footer {
+   height: 9em;
+   padding-top: 6em;
+   h4 {
+      color: $dark-grey;
+   }
+}
+
 
 
 
@@ -139,8 +155,9 @@ sub {
 
 
 // GRIDS
-main {
-   padding: 3em 1em 2em;
+.outer-container {
+   padding-left: 1em;
+   padding-right: 1em;
    @include outer-container(100%);
 }
 
@@ -214,13 +231,6 @@ main {
    h4{
       margin-top: $micro-leading;
       margin-bottom: $micro-leading;
-   }
-}
-
-.footer{
-   margin-top: $huge-leading*2;
-   h4 {
-      color: $dark-grey;
    }
 }
 

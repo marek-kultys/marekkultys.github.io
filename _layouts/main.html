@@ -8,17 +8,19 @@
 	</head>
 
 	<body>
-		<main>
-			<header>
-				{% include header.html %}
-				{% include divider.html %}
-			</header>
-			<article>
-      		{{ content }}
-			</article>
+		<div class="outer-container">
+			<main>
+				<header>
+					{% include header.html %}
+					{% include divider.html %}
+				</header>
+				<article>
+	      		{{ content }}
+				</article>
+			</main>
 			<footer>
 				{% include footer.html %}
 			</footer>
-		</main>
+		</div>
 	</body>
 </html>
