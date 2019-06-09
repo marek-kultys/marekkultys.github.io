@@ -192,6 +192,13 @@ sub {
    }
 }
 
+.shift-back {
+   @include shift(0);
+   @include media($landscape) {
+      @include shift(-12);
+   }
+}
+
 
 
 // OTHER STYLES
@@ -227,6 +234,10 @@ sub {
    border-bottom: none;
 }
 
+.caption {
+   text-align: right;
+}
+
 .blog-list {
    margin-bottom: $large-leading*2;
    &:last-of-type {
@@ -238,9 +249,17 @@ sub {
    }
 }
 
-.block-of-images {
+.block-margin {
    margin-top: $large-leading*2;
    margin-bottom: $huge-leading*2;
+}
+
+.caption-margin {
+   margin-bottom: $huge-leading*2;
+   margin-top: -$large-leading*2;
+   @include media($landscape){
+      margin-top: $large-leading*2;
+   }
 }
 
 .border {
