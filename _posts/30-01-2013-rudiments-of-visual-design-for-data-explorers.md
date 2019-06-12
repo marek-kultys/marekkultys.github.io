@@ -8,6 +8,6 @@ excerpt_separator: <!--more-->
 published: true
 ---
 
-After running the first Visual Design for Data Explorers workshop at the IEEEVis conference in 2012, I was asked to publish a write-up of my presentation in [Parsons Journal for Information Mapping](http://piim.newschool.edu/journal/). In the article I discuss selected elements and properties of the visual language which researchers and data explorers should know and use when designing new visualisations.
+After running my first [Visual Design for Data Explorers](/work/data-explorers-workshop) workshop, I was asked to publish a write-up in Parsons Journal for Information Mapping. I discuss selected elements and properties of the visual language that should be considered when designing data visualisations.
 <!--more-->
 [Visual Alpha-Beta-Gamma: Rudiments of Visual Design for Data Explorers](http://piim.newschool.edu/journal/issues/2013/01/pdfs/ParsonsJournalForInformationMapping_Kultys_Marek.pdf)
