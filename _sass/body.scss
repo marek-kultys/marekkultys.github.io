@@ -262,6 +262,14 @@ sub {
    }
 }
 
+.contact-image {
+   margin-top: $large-leading*2;
+   max-width: 70%;
+   @include media($landscape){
+      max-width: 100%;
+   }
+}
+
 .border {
    border: 1px solid $dark-grey;
 }
