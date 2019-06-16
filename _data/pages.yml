@@ -1,5 +1,5 @@
 home:
-   tagline: Designer of information experiences in the life sciences, healthcare, and AI
+   tagline: Digital product designer specialising in the life sciences, healthcare, and AI
    link: /
 
 work:
@@ -33,6 +33,10 @@ project-sequence-bundles:
 project-ctrl:
    tagline: Ctrl Group
    link: https://www.ctrl-group.com/
+
+project-immunocore:
+   tagline: Immunocore
+   link: https://www.immunocore.com/
 
 project-bento:
    tagline: The Bento Lab
