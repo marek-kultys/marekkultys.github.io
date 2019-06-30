@@ -10,7 +10,7 @@ published: true
 
 After running my first [Visual Design for Data Explorers](/work/data-explorers-workshop) workshop, I was asked to publish a write-up in Parsons Journal for Information Mapping. I discuss selected elements and properties of the visual language that should be considered when designing data visualisations.
 
-![Image-maker increases information densityby adding patterns to eliminate inside-outside ambiguity.](/img/posts/30-01-2013/inside-and-outside.png)
+![Image-maker increases information densityby adding patterns to eliminate inside-outside ambiguity.](/img/posts/30-01-2013/time-is-passing.png)
 
 <!--more-->
 [Visual Alpha-Beta-Gamma: Rudiments of Visual Design for Data Explorers](http://piim.newschool.edu/journal/issues/2013/01/pdfs/ParsonsJournalForInformationMapping_Kultys_Marek.pdf)
