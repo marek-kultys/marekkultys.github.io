@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 published: true
 ---
 
-This is the last post from my series about communicating with extraterrestrial intelligence. In this post I discuss my [master's thesis](https://www.researchgate.net/publication/277892123_Lingua_Extraterrestris), which I presented at the [Communicating Across the Cosmos](https://communicating.seti.org/) workshop organised by the SETI Institute.
+This is the last post from my series about communicating with extraterrestrial intelligence. In this post, I discuss my [master's thesis](https://www.researchgate.net/publication/277892123_Lingua_Extraterrestris), which I presented at the [Communicating Across the Cosmos](https://communicating.seti.org/) workshop organised by the SETI Institute.
 
 ![A-cultural Codes](/img/posts/21-01-2015/a-cultural-codes.png)
 
