@@ -184,6 +184,10 @@ sub {
          @include span-columns(8);
       }
    }
+
+   .container-two-halfs {
+      @include span-columns(6);
+   }
 }
 
 .shift {
@@ -280,6 +284,15 @@ sub {
 
 .border {
    border: 1px solid $dark-grey;
+}
+
+.half-image {
+   padding-left: $small-leading;
+   padding-right: $medium-leading;
+   padding-bottom: $large-leading;
+   a {
+      border: 0;
+   }
 }
 
 .video-wrapper {
