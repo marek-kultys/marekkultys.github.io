@@ -274,6 +274,10 @@ sub {
    }
 }
 
+#fix-excess-margin {
+   margin-bottom: 0px;
+}
+
 .contact-image {
    margin-top: $large-leading*2;
    max-width: 70%;
