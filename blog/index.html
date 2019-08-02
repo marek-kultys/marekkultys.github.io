@@ -1,36 +1,19 @@
 ---
 layout: main
-title: Trowel & Lime | Blog
+title: Marek Kultys | Blog
 label: blog
 ---
-<article class="blog">
-
-	<section>
-		<div class="hero">
-			<div class="hero-container">
-				<div class="full-grid middle-grid page-container">
-
-					<div>
-						{% for post in paginator.posts %}
-							<div class="blogpost blogpost-margin">
-								<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-								<h6 class="metadata">
-									{% include byline.html post=post %}
-								</h6>
-								<span class="blogpost-text">
-									{{ post.excerpt }}
-								</span>
-								<p><a href="{{ post.url }}" class="underlined-link">Continue reading</a></p>
-							</div>
-						{% endfor %}
-					</div>
-
-					{% include paginate.html %}
-
+<section>
+	<div class="container">
+		<div class="container-two-third shift">
+			{% for post in site.posts %}
+				<div class="blog-list">
+					<h3><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a></h3>
+					<h4>{% include byline.html post=post %}</h4>
+					{{ post.excerpt }}
 				</div>
-			</div>
+			{% endfor %}
 		</div>
-	</section>
-
-</article>
+	</div>
+</section>
 

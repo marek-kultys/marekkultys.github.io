@@ -2,15 +2,25 @@
 <html lang="en">
 	<head>
     	<title>
-      	{{ site.data.sgraffito.name }}
+      	{{ site.data.mk.name }}
       </title>
     	{% include head.html %}
 	</head>
 
-
-	<body {% if page.label == "home" %} onload="randombg()" {% endif %}>
-		<main>
-      	{{ content }}
-		</main>
+	<body>
+		<div class="outer-container">
+			<main>
+				<header>
+					{% include header.html %}
+					{% include divider.html %}
+				</header>
+				<article>
+	      		{{ content }}
+				</article>
+			</main>
+			<footer>
+				{% include footer.html %}
+			</footer>
+		</div>
 	</body>
 </html>

@@ -1,34 +1,17 @@
 ---
 layout: main
-title: Trowel & Lime | Blog Post
+title: Marek Kultys | Blog Post
+label: blog-post
 ---
-
-<article class="blog">
-
-	<section>
-		<div class="hero">
-			<div class="hero-container" {% if page.hero %} style="background-image: url('/blog/img/{{ page.hero }}');" {% endif %}>
-				<div class="full-grid middle-grid page-container">
-
-					<!-- <h6><a href="/blog">‹ Back to Blog</a></h6> -->
-
-					<div class="title-container">
-						<h1 class="text-left">{{ page.title }}</h1>
-					</div>
-
-					<h6 class="metadata">{% include byline.html post=page %}</h6>
-
-					<div class="blogpost small-padding-top">
-						<div class="blogpost-text">
-							<span class="markdown">
-								{{ content }}
-							</span>
-						</div>
-					</div>
-
-				</div>
+<section>
+	<div class="container">
+		<div class="container-two-thirds shift">
+			<div class="entry">
+				<h4>Published on {{ page.date | date: "%-d %B %Y" }}</h4>
+			</div>
+			<div class="entry">
+				{{ content }}
 			</div>
 		</div>
-	</section>
-
-</article>
+	</div>
+</section>
