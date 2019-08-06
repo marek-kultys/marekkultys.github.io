@@ -272,7 +272,9 @@ sub {
 
 .caption-margin {
    margin-bottom: $huge-leading*2;
-   // margin-top: $large-leading*2;
+   @include media($landscape){
+      margin-top: $large-leading*2;
+   }
 }
 
 #fix-excess-margin {
