@@ -272,11 +272,11 @@ sub {
 
 .caption-margin {
    margin-bottom: $huge-leading*2;
-   margin-top: $large-leading*2;
+   // margin-top: $large-leading*2;
 }
 
 #fix-excess-margin {
-   margin-bottom: 0;
+   margin-bottom: $large-leading*2;
    @include media($landscape){
       padding-top: $large-leading;
    }
@@ -284,7 +284,7 @@ sub {
 
 .contact-image {
    margin-top: $large-leading*2;
-   margin-bottom: $huge-leading;
+   margin-bottom: $large-leading*2;
    max-width: 70%;
    @include media($landscape){
       max-width: 100%;
