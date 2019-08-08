@@ -14,8 +14,8 @@
          <h2>{{ page.title }}</h2>
       {% else %}
          <h2>
-            {% assign page = site.data.pages[page.label] %}
-            {{ page.tagline }}
+            {% assign variable = site.data.pages[page.label] %}
+            {{ variable.tagline }}
          </h2>
       {% endif %}
    </div>

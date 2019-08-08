@@ -4,8 +4,8 @@ host: 0.0.0.0
 source: .
 destination: ./_site
 
-future:      true
-lsi:         false
-permalink:   /blog/:year/:month/:day/:title/
-encoding: 	 UTF-8
-highlighter: pygments
+lsi: false
+permalink: /blog/:year/:month/:day/:title/
+encoding: UTF-8
+highlighter: rouge
+timezone: Europe/London

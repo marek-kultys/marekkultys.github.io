@@ -47,11 +47,8 @@ body {
 
 main {
    min-height: calc(100vh - 9em);
-   padding-bottom: 8em;
-}
-
-header {
    padding-top: 3em;
+   padding-bottom: 8em;
 }
 
 .footer {
@@ -154,6 +151,10 @@ sub {
     font-size: smaller;
 }
 
+.strong {
+   font-weight: 600;
+}
+
 
 
 // GRIDS
@@ -223,9 +224,9 @@ sub {
 }
 .entry:last-of-type {
    margin-bottom: 0;
-   img {
-      margin-bottom: 0;
-   }
+   // img {
+   //    margin-bottom: 0;
+   // }
 }
 
 .backlink {
@@ -265,17 +266,19 @@ sub {
    margin-top: $large-leading*2;
    margin-bottom: $huge-leading*2;
    &:last-of-type {
-      margin-bottom: $large-leading*0;
+      margin-bottom: $huge-leading*1;
    }
 }
 
 .caption-margin {
    margin-bottom: $huge-leading*2;
-   margin-top: $large-leading*2;
+   @include media($landscape){
+      margin-top: $large-leading*2;
+   }
 }
 
 #fix-excess-margin {
-   margin-bottom: 0;
+   margin-bottom: $large-leading*2;
    @include media($landscape){
       padding-top: $large-leading;
    }
@@ -283,6 +286,7 @@ sub {
 
 .contact-image {
    margin-top: $large-leading*2;
+   margin-bottom: $large-leading*2;
    max-width: 70%;
    @include media($landscape){
       max-width: 100%;
