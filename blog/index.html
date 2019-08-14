@@ -2,13 +2,14 @@
 layout: main
 title: Marek Kultys | Blog
 label: blog
+permalink: /blog/
 ---
 <section>
 	<div class="container">
 		<div class="container-two-third shift">
 			{% for post in site.posts %}
 				<div class="blog-list">
-					<h3><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a></h3>
+					<h3><a href="{% if post.link %} {{ post.link }} {% else %} {{ post.url }} {% endif %}">{{ post.title }}</a></h3>
 					<h4>{% include byline.html post=post %}</h4>
 					{{ post.excerpt }}
 				</div>
