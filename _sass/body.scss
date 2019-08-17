@@ -47,8 +47,12 @@ body {
 
 main {
    min-height: calc(100vh - 9em);
-   padding-top: 3em;
-   padding-bottom: 8em;
+   padding-top: 2.4em;
+   padding-bottom: 6em;
+   @include media($landscape) {
+      padding-top: 3em;
+      padding-bottom: 8em;
+   }
 }
 
 .footer {
@@ -165,8 +169,8 @@ sub {
 }
 
 .container {
-   @include span-columns(11.2);
-   @include shift(0.4);
+   @include span-columns(12);
+   @include shift(0);
    @include media($landscape) {
       @include span-columns(7);
       @include shift(2.5);
