@@ -1,11 +1,33 @@
 exclude: [README.md]
 host: 0.0.0.0
+url: "http://marek-kultys.github.io"
 
-source: .
 destination: ./_site
 
-lsi: false
 permalink: /blog/:year/:month/:day/:title/
-encoding: UTF-8
-highlighter: rouge
 timezone: Europe/London
+
+
+# FREE TO CHANGE
+github: [metadata]
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+
+
+# CANNOT CHANGE
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
