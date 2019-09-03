@@ -297,6 +297,11 @@ sub {
    }
 }
 
+.image-link {
+   border: none;
+   padding-bottom: none;
+}
+
 .border {
    border: 1px solid $dark-grey;
 }
