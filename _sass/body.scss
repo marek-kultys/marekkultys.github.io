@@ -211,6 +211,54 @@ sub {
 
 
 
+// IMAGES
+.image-link {
+   border: none;
+   padding-bottom: none;
+}
+
+.contact-image {
+   margin-top: $large-leading*2;
+   margin-bottom: $large-leading*2;
+   max-width: 70%;
+   @include media($landscape){
+      max-width: 100%;
+   }
+}
+
+.border {
+   border: 1px solid $dark-grey;
+}
+
+.image-gallery {
+   margin-bottom: $small-leading;
+}
+
+.half-image {
+   padding-left: $small-leading;
+   padding-right: $medium-leading;
+   padding-bottom: $large-leading;
+   a {
+      border: 0;
+   }
+}
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+   margin-bottom: 0.33em;
+   iframe {
+   	position: absolute;
+   	top: 0;
+   	left: 0;
+   	width: 100%;
+   	height: 100%;
+   }
+}
+
+
+
 // OTHER STYLES
 .divider {
    display: block;
@@ -220,17 +268,18 @@ sub {
 }
 
 .entry {
-   margin-bottom: $huge-leading;
+   margin-bottom: $large-leading*2;
    img {
       margin-top: $huge-leading;
-      margin-bottom: $huge-leading;
+      margin-bottom: $large-leading;
    }
-}
-.entry:last-of-type {
-   margin-bottom: 0;
-   // img {
-   //    margin-bottom: 0;
-   // }
+   h4{
+      margin-top: $micro-leading;
+      margin-bottom: $micro-leading;
+   }
+   &:last-of-type {
+      margin-bottom: 0px;
+   }
 }
 
 .backlink {
@@ -255,29 +304,16 @@ sub {
    text-align: right;
 }
 
-.blog-list {
-   margin-bottom: $huge-leading*2;
-   &:last-of-type {
-      margin-bottom: 0px;
-   }
-   h4{
-      margin-top: $micro-leading;
-      margin-bottom: $micro-leading;
-   }
-}
-
 .block-margin {
-   margin-top: $large-leading*2;
-   margin-bottom: $huge-leading*2;
-   &:last-of-type {
-      margin-bottom: $huge-leading*1;
-   }
+   margin-top: $huge-leading;
+   margin-bottom: $large-leading*2;
+
 }
 
 .caption-margin {
    margin-bottom: $huge-leading*2;
    @include media($landscape){
-      margin-top: $large-leading*2;
+      margin-top: $huge-leading;
    }
 }
 
@@ -288,43 +324,8 @@ sub {
    }
 }
 
-.contact-image {
-   margin-top: $large-leading*2;
-   margin-bottom: $large-leading*2;
-   max-width: 70%;
+#fix-reduced-margin {
    @include media($landscape){
-      max-width: 100%;
-   }
-}
-
-.image-link {
-   border: none;
-   padding-bottom: none;
-}
-
-.border {
-   border: 1px solid $dark-grey;
-}
-
-.half-image {
-   padding-left: $small-leading;
-   padding-right: $medium-leading;
-   padding-bottom: $large-leading;
-   a {
-      border: 0;
-   }
-}
-
-.video-wrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	height: 0;
-   margin-bottom: 0.33em;
-   iframe {
-   	position: absolute;
-   	top: 0;
-   	left: 0;
-   	width: 100%;
-   	height: 100%;
+      margin-bottom: $huge-leading;
    }
 }

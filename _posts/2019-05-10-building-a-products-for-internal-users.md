@@ -4,6 +4,7 @@ label: blog-post
 title: Building a Product for Internal Users
 date: 10 May 2019
 link:
+image: 
 excerpt_separator: <!--more-->
 published: false
 ---
@@ -53,4 +54,4 @@ published: false
   - test features early enough before they are used (often not possible due to the pace at which company is working)
   - as much as possible ensure there's access to external users (e.g. collaborators) who can provide fresh perspective
   - carefully select individuals based on criteria such as their background, relationship to their peers, position in thee organisation, role in the organisation, previous experience, and years in the company    
-  - 
+  -
