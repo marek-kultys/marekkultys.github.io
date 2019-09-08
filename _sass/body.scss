@@ -306,8 +306,10 @@ sub {
 
 .block-margin {
    margin-top: $huge-leading;
-   margin-bottom: $large-leading*2;
-
+   margin-bottom: $small-leading;
+   @include media($landscape) {
+      margin-bottom: $large-leading*2;
+   }
 }
 
 .caption-margin {
