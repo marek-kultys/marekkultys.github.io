@@ -226,6 +226,15 @@ sub {
    }
 }
 
+.icon {
+   display: none;
+   @include media($landscape){
+      display: block;
+      max-width: 85%;
+      margin-top: $small-leading;
+   }
+}
+
 .border {
    border: 1px solid $dark-grey;
 }
