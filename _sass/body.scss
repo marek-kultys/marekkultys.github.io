@@ -171,6 +171,7 @@ sub {
 .container {
    @include span-columns(12);
    @include shift(0);
+   max-width: 840px;
    @include media($landscape) {
       @include span-columns(7);
       @include shift(2.5);
