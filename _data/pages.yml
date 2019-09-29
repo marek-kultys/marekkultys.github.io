@@ -1,59 +1,59 @@
 home:
-   tagline: Product designer specialising in healthcare, life sciences, and AI
+   headline: I design complex products for healthcare, biotech, and AI
    link: /
 
 work:
-   tagline: Work that I'm proud of
+   headline: Work that I'm proud of
    link: /work
 
 blog:
-   tagline: Blog&colon; My latest design thinking
+   headline: Blog&colon; My latest design thinking
    link: /blog
 
 influences:
-   tagline: My design influences
+   headline: My design influences
    link: /influences
 
 contact:
-   tagline: Get in touch
+   headline: Get in touch
    link: /contact
 
 project-benevolent:
-   tagline: BenevolentAI
+   headline: BenevolentAI
    link: https://benevolent.ai/
 
 project-biodesign:
-   tagline: BioDesign Team
+   headline: BioDesign Team
    link: https://www.science-practice.com/teams/bio-design/
 
 project-sequence-bundles:
-   tagline: Sequence Bundles
+   headline: Sequence Bundles
    link: https://www.science-practice.com/projects/sequence-bundles/
 
 project-ctrl:
-   tagline: Ctrl Group
+   headline: Ctrl Group
    link: https://www.ctrl-group.com/
 
 project-immunocore:
-   tagline: Immunocore
+   headline: Immunocore
    link: https://www.immunocore.com/
 
 project-bento:
-   tagline: The Bento Lab
+   headline: The Bento Lab
    link: https://www.bento.bio/
 
 project-data-explorers:
-   tagline: Visual Design for Data Explorers
+   headline: Visual Design for Data Explorers
    link: /work/data-explorers-workshop
 
 project-mitosis:
-   tagline: Mitosis and Meiosis
+   headline: Mitosis and Meiosis
    link: /work/mitosis-and-meiosis
 
 project-lingua:
-   tagline: Lingua Extraterrestris
+   headline: Lingua Extraterrestris
    link: /work/lingua-extraterrestris
 
 project-sex-shop:
-   tagline: Sex Shop Logo
+   headline: Sex Shop Logo
    link: /work/sex-shop-logo
