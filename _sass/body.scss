@@ -166,15 +166,16 @@ sub {
    padding-left: 1em;
    padding-right: 1em;
    @include outer-container(100%);
+   max-width: 1280px;
 }
 
 .container {
    @include span-columns(12);
    @include shift(0);
-   max-width: 840px;
+   // max-width: 840px;
    @include media($landscape) {
-      @include span-columns(7);
-      @include shift(2.5);
+      @include span-columns(8);
+      @include shift(2);
    }
 
    .container-one-third {
