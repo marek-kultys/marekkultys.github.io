@@ -228,12 +228,25 @@ sub {
    }
 }
 
-.icon {
+.icon-vertical {
    display: none;
    @include media($landscape){
       display: block;
       max-width: 85%;
       margin-top: $small-leading;
+   }
+}
+
+.icon-horizontal {
+   display: block;
+   width: 80vw;
+   max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: $huge-leading;
+   margin-bottom: $large-leading;
+   @include media($landscape){
+      display: none;
    }
 }
 
