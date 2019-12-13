@@ -228,7 +228,7 @@ sub {
    }
 }
 
-.icon-vertical {
+.banner-vertical {
    display: none;
    @include media($landscape){
       display: block;
@@ -237,9 +237,9 @@ sub {
    }
 }
 
-.icon-horizontal {
+.banner-horizontal {
    display: block;
-   width: 80vw;
+   width: 90vw;
    max-width: 600px;
    margin-left: auto;
    margin-right: auto;
