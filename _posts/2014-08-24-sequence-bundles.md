@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 published: true
 ---
 
-Having presented [Sequence Bundles](https://www.science-practice.com/projects/sequence-bundles/) at the IEEEVis 2013 conference, I co-wrote this peer-reviewed article introducing our new visualisation method to the bioinformatics community.
+Having presented [Sequence Bundles](https://www.science-practice.com/projects/sequence-bundles/) at the <a href="http://ieeevis.org/year/2013/info/vis-welcome/welcome">IEEEVis 2013</a> conference, I co-wrote this peer-reviewed article introducing our new visualisation method to the bioinformatics community.
 
 <!--more-->
 
