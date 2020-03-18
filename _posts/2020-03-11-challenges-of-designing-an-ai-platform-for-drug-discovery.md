@@ -13,4 +13,4 @@ I was invited to speak at <a href="https://wudsilesia.pl/">WUD Silesia</a> 2019 
 
 <!--more-->
 
-[Talk at WUD Silesia 2019: Looking for a Warm Fuzzy Feeling: Challenges of Designing an AI Platform for Drug Discovery](https://youtu.be/DQjBqeLuPz0)
+[Talk at WUD Silesia 2019: Looking for a Warm Fuzzy Feeling: Challenges of Designing an AI Platform for Drug Discovery](https://benevolent.ai/video/challenges-of-designing-an-ai-platform-for-drug-discovery-w/-marek-kultys1)
