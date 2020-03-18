@@ -2,7 +2,7 @@
 layout: blog-post
 label: blog-post
 title: Looking for a Warm Fuzzy Feeling&#58; Challenges of Designing an AI Platform for Drug Discovery
-date: 23 November 2019
+date: 11 March 2020
 link: https://youtu.be/DQjBqeLuPz0
 image: /img/posts/23-11-2019/wud-video.png
 excerpt_separator: <!--more-->
