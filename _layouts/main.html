@@ -13,11 +13,19 @@
 			<main>
 				{% include header.html %}
 				{% include divider.html %}
-				<article>
-	      		{{ content }}
-				</article>
-				{% include divider.html %}
-				{% include links.html %}
+				{% if page.label == "home" %}
+					{% include links.html %}
+					{% include divider.html %}
+					<article>
+						{{ content }}
+					</article>
+		      {% else %}
+					<article>
+						{{ content }}
+					</article>
+					{% include divider.html %}
+					{% include links.html %}
+		      {% endif %}
 			</main>
 			<footer>
 				{% include footer.html %}
