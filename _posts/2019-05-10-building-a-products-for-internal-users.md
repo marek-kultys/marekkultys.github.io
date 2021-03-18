@@ -2,9 +2,9 @@
 layout: blog-post
 label: blog-post
 title: Building a Product for Internal Users
-date: 10 May 2019
+date: May 2019
 link:
-image: 
+image:
 excerpt_separator: <!--more-->
 published: false
 ---

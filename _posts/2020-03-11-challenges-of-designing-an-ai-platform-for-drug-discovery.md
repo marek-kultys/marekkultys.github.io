@@ -2,7 +2,7 @@
 layout: blog-post
 label: blog-post
 title: Looking for a Warm Fuzzy Feeling&#58; Challenges of Designing an AI Platform for Drug Discovery
-date: 11 March 2020
+date: March 2020
 link: https://benevolent.ai/video/challenges-of-designing-an-ai-platform-for-drug-discovery-w/-marek-kultys1
 image:
 excerpt_separator: <!--more-->
