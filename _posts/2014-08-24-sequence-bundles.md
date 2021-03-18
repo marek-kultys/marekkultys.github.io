@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 label: blog-post
-title: Sequence Bundles&#58; a novel method for visualising, discovering and exploring sequence motifs
+title: Sequence Bundles&#58; a Novel Method for Visualising, Discovering and Exploring Sequence Motifs
 date: August 2014
 link: https://bmcproc.biomedcentral.com/articles/10.1186/1753-6561-8-S2-S8
 image: /img/posts/24-08-2014/sequence-bundles.png
