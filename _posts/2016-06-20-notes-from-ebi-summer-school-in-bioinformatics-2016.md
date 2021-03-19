@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 published: true
 ---
 
-In 2016, I joined the Summer School in Bioinformatics ran by <a href="https://www.ebi.ac.uk/">EMBL-EBI</a>. I documented our process for the genome assembly project and published my <a href="https://github.com/marek-kultys/ebi-summer-school-2016-notes">notes</a> on GitHub. Hopefully, this can helps others take their first steps in bioinformatics.
+In 2016, I joined the Summer School in Bioinformatics organised by the <a href="https://www.ebi.ac.uk/">EBI</a>. I documented our process for the genome assembly project and published my <a href="https://github.com/marek-kultys/ebi-summer-school-2016-notes">notes</a> on GitHub. I hope this helps others take their first steps in bioinformatics.
 
 <!--more-->
 
