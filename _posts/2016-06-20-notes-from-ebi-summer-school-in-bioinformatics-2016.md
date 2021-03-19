@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 label: blog-post
-title: Lab Notes from EBI Summer School in Bioinformatics
+title: Lab Notes from the EBI Summer School in Bioinformatics
 date: June 2016
 link: https://github.com/marek-kultys/ebi-summer-school-2016-notes
 image: /img/posts/20-06-2016/e-coli-chromosome 2.png
