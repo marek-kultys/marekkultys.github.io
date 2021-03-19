@@ -1,8 +1,8 @@
 ---
 layout: blog-post
 label: blog-post
-title: Communicating Across the Cosmos, Part 2
-date: 7 January 2015
+title: Communicating Across the Cosmos — Part 2
+date: January 2015
 link: https://www.science-practice.com/blog/2015/01/07/communicating-across-the-cosmos-2/
 image: /img/posts/7-01-2015/pioneer-plaque.png
 excerpt_separator: <!--more-->

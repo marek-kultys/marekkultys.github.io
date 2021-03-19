@@ -1,8 +1,8 @@
 ---
 layout: blog-post
 label: blog-post
-title: Communicating Across the Cosmos, Part 3
-date: 21 January 2015
+title: Communicating Across the Cosmos — Part 3
+date: January 2015
 link: https://www.science-practice.com/blog/2015/01/21/communicating-across-the-cosmos-3/
 image: /img/posts/21-01-2015/a-cultural-codes.png
 excerpt_separator: <!--more-->
