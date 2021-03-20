@@ -15,4 +15,4 @@ I hired my first UX team in 2020 and learnt a lot in the process. Here, I share 
 
 <!--more-->
 
-[Talk at WUD Silesia 2019: Looking for a Warm Fuzzy Feeling: Challenges of Designing an AI Platform for Drug Discovery](https://benevolent.ai/video/challenges-of-designing-an-ai-platform-for-drug-discovery-w/-marek-kultys1)
+[4 Things I Learnt when Hiring My First UX Team](https://medium.com/)
