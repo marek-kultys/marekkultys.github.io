@@ -4,7 +4,7 @@ label: blog-post
 title: 4 Things I Learnt when Hiring My First UX Team
 date: March 2021
 link: https://medium.com/
-image:
+image: /img/posts/21-03-2021/hiring.png
 excerpt_separator: <!--more-->
 published: true
 ---
