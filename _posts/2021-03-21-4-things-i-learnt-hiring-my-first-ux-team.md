@@ -3,7 +3,7 @@ layout: blog-post
 label: blog-post
 title: 4 Things I Learnt when Hiring My First UX Team
 date: March 2021
-link: https://medium.com/
+link: https://marekkultys.medium.com/4-things-i-learnt-when-hiring-my-first-ux-team-ebfc7bf39cc
 image: /img/posts/21-03-2021/hiring.png
 excerpt_separator: <!--more-->
 published: true
@@ -15,4 +15,4 @@ I hired my first UX team in 2020 and learnt a lot in the process. Here, I share 
 
 <!--more-->
 
-[4 Things I Learnt when Hiring My First UX Team](https://medium.com/)
+[4 Things I Learnt when Hiring My First UX Team](https://marekkultys.medium.com/4-things-i-learnt-when-hiring-my-first-ux-team-ebfc7bf39cc)
