@@ -3,10 +3,10 @@ layout: blog-post
 label: blog-post
 title: 4 Things I Learnt when Hiring My First UX Team
 date: March 2021
-link: https://medium.com/
-image:
+link: https://marekkultys.medium.com/4-things-i-learnt-when-hiring-my-first-ux-team-ebfc7bf39cc
+image: /img/posts/21-03-2021/hiring.png
 excerpt_separator: <!--more-->
-published: false
+published: true
 ---
 
 Hiring for the first time is not easy. For me personally, it was challenging and daunting but also exciting and gratifying. I was lucky to receive support from my colleagues at <a href="https://www.benevolent.com/">BenevolentAI</a>, but I also had to figure a lot of things out on my own.
@@ -15,4 +15,4 @@ I hired my first UX team in 2020 and learnt a lot in the process. Here, I share 
 
 <!--more-->
 
-[Talk at WUD Silesia 2019: Looking for a Warm Fuzzy Feeling: Challenges of Designing an AI Platform for Drug Discovery](https://benevolent.ai/video/challenges-of-designing-an-ai-platform-for-drug-discovery-w/-marek-kultys1)
+[4 Things I Learnt when Hiring My First UX Team](https://marekkultys.medium.com/4-things-i-learnt-when-hiring-my-first-ux-team-ebfc7bf39cc)
